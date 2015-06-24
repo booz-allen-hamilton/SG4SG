@@ -1,5 +1,5 @@
 # STEM Girls 4 Social Good
-[!]("distribution.png")
+![](distribution.png)
 
 
 ## Activity Schedule by Day
