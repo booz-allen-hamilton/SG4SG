@@ -1,5 +1,5 @@
-# SG4SG
-Event materials 
+# STEM Girls 4 Social Good
+
 ## Activity Schedule by Day
 
 ### Monday
