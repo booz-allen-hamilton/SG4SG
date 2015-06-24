@@ -1,10 +1,13 @@
 # STEM Girls 4 Social Good
+[!]("distribution.png")
+
 
 ## Activity Schedule by Day
 
 ### Monday
 * Data Exploration - 
-* Data Modeling -
+* Data Modeling - 
+  * Overview: What is data driven modeling? (Vocabulary included)
 * Social Networks -
 
 ### Tuesday
