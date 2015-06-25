@@ -17,7 +17,7 @@ import csv
 samplesize = 1000
 outfile = open("humantrafficking_data.csv","w")
 out = csv.writer(outfile,delimiter=",",lineterminator="\n")
-header = ["Trafficker","Location", "Gender", "Age", "Marital Status", "Education","Employed","Gang Member","Arrested","Personal Crime","Property Crime","Inchoate Crime","Statutory Crime","Misdemeanor","Felony"]
+header = ["Trafficker","Location", "Gender", "Age", "Marital Status", "US Citizenship", "Education","Employed","Gang Member","Arrested","Personal Crime","Property Crime","Inchoate Crime","Statutory Crime","Misdemeanor","Felony"]
 out.writerow(header)
 #print header
 
@@ -89,8 +89,8 @@ for i in range(len(t)):
     else:
         mis,fel = 0,0
 
-
-    newline = [t[i],loc,gender,age,ms,int(edu),emp,gang,arr,per,pro,inh,sta,mis,fel]
+    usc = binom.rvs(1,.5)
+    newline = [t[i],loc,gender,age,ms,usc,int(edu),emp,gang,arr,per,pro,inh,sta,mis,fel]
     #print newline
     out.writerow(newline)
 
