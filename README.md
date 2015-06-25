@@ -1,6 +1,7 @@
 # STEM Girls 4 Social Good
 ![](distribution.png)
 
+*Handouts must be ready July ? for printing*
 
 ## Activity Schedule by Day
 
