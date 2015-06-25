@@ -4,28 +4,34 @@
 
 ## Activity Schedule by Day
 
-### Monday
+### Monday (Samantha, )
 * Data Exploration - 
-* Data Modeling - 
-  * Overview: What is data driven modeling? (Vocabulary included)
+* Data Modeling - Overview: What is data driven modeling?, interactive vocabulary discussion.
 * Social Networks -
 
-### Tuesday
+### Tuesday (Samantha, )
 * Data Exploration - 
-* Data Modeling -
+* Data Modeling - What are decision trees and how do they work?, 
 * Social Networks -
 
-### Wednesday
+### Wednesday (Stephanie R, Samantha, )
 * Data Exploration - 
-* Data Modeling -
-* Social Networks -
-
-
-### Thursday
-* Data Exploration - 
-* Data Modeling -
+* Data Modeling - Playing with the human trafficking model, interactive feature selection.
 * Social Networks -
 
 
-### Friday
+### Thursday (Stephanie R, Samantha, )
+* Data Exploration - 
+* Data Modeling - Can we over teach our model?, interactive overfitting lesson.
+* Social Networks -
+
+
+### Friday (Stephanie R, Samantha, )
+* Presentations
+
+
+## Resources
+[Data Science for kids experiment](http://www.datasciencekids.org/p/home-page.html?m=1)
+
+[United Nations Global Initiative to Fight Human Trafficking: Profiling the Traffickers](https://www.unodc.org/documents/human-trafficking/2008/BP016ProfilingtheTraffickers.pdf)
 
