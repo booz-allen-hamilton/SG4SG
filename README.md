@@ -5,29 +5,29 @@
 
 ## Activity Schedule by Day
 
-### Monday (Modeling - Samantha, )
-* Data Exploration - 
+### Monday (Modeling - Samantha, DE - Stephanie B)
+* Data Exploration - Descriptive Statistics & DE in Excel
 * Data Modeling - Overview: What is data driven modeling?, interactive vocabulary discussion.
 * Social Networks -
 
-### Tuesday (Modeling - Samantha, )
-* Data Exploration - 
+### Tuesday (Modeling - Samantha, DE - Maria)
+* Data Exploration - Feature Engineering and Case File Exploration
 * Data Modeling - What are decision trees and how do they work?, 
 * Social Networks -
 
-### Wednesday (Modeling - Stephanie R, )
-* Data Exploration - 
+### Wednesday (Modeling - Stephanie R, DE - Stephanie B)
+* Data Exploration - Intro to Python and Scripting
 * Data Modeling - Playing with the human trafficking model, interactive feature selection.
 * Social Networks -
 
 
-### Thursday (Modeling - Stephanie R,  )
-* Data Exploration - 
+### Thursday (Modeling - Stephanie R,  DE - Maria)
+* Data Exploration - Data Visualization Techniques & Tools
 * Data Modeling - Can we over teach our model?, interactive overfitting lesson.
 * Social Networks -
 
 
-### Friday (Modeling - Stephanie R, )
+### Friday (Modeling - Stephanie R, DE - Stephanie B)
 * Presentations
 
 
