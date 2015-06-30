@@ -36,3 +36,4 @@
 
 [United Nations Global Initiative to Fight Human Trafficking: Profiling the Traffickers](https://www.unodc.org/documents/human-trafficking/2008/BP016ProfilingtheTraffickers.pdf)
 
+[What are the different types of crimes?](http://www.legalmatch.com/law-library/article/what-are-the-different-types-of-crimes.html)
