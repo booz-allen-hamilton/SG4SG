@@ -7,7 +7,7 @@ import csv
 
 image_name = "HumanTraffickingTree"
 maxdepth = 8
-data = csv.reader(open("humantrafficking_data.csv","r"),delimiter=",")
+data = csv.reader(open("../data/humantrafficking_data.csv","r"),delimiter=",")
 
 Xnames = data.next()[2:]          # feature names
 X = []            # training data
@@ -38,7 +38,7 @@ dot_data = StringIO()
 tree.export_graphviz(clf, out_file=dot_data, feature_names = Xnames) 
 graph = pydot.graph_from_dot_data(dot_data.getvalue()) 
 #graph.write_pdf(image_name + ".pdf") 
-graph.write_png(image_name + "_" + str(maxdepth) + "_" + str( + ".png") 
+graph.write_png(image_name + "_" + str(maxdepth) + "_" + ".png") 
 
 
 def get_rules(dtree, feature_names):
