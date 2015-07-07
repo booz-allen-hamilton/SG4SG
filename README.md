@@ -23,7 +23,7 @@
 
 ### Thursday (Modeling - Stephanie R,  DE - Maria)
 * Data Exploration - Data Visualization Techniques & Tools
-* Data Modeling - Can we over teach our model?, interactive overfitting lesson.
+* Data Modeling - How do we teach our model?, interactive modeling training and POI creation.
 * Social Networks -
 
 
