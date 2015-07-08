@@ -13,7 +13,7 @@ while maxdepth <= 1:
     print 'Max Depth must be greater than 1.'
     maxdepth = int(input('Max Depth: '))
 
-data = csv.reader(open("../data/humantrafficking_data.csv","r"),delimiter=",")
+data = csv.reader(open("humantrafficking_data.csv","r"),delimiter=",")
 Xnames = data.next()[2:]          # feature names
 X = []                            # training data
 Y = []                            # targets of training data
@@ -45,8 +45,3 @@ print "Decision tree training accuracy"
 training_accuracy =  sum(Y == clf.predict(X))/float(len(Y))         # predict the class of training data
 print training_accuracy
 
-dot_data = StringIO() 
-tree.export_graphviz(clf, out_file=dot_data, feature_names = Xnames) 
-graph = pydot.graph_from_dot_data(dot_data.getvalue()) 
-#graph.write_pdf(image_name + ".pdf") 
-graph.write_png(image_name + "_" + str(maxdepth) + "_" + ".png") 

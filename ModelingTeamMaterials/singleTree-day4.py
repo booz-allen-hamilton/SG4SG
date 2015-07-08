@@ -13,8 +13,8 @@ while maxdepth <= 1:
     print 'Max Depth must be greater than 1.'
     maxdepth = int(input('Max Depth: '))
 
-data = csv.reader(open("../data/humantrafficking_data.csv","r"),delimiter=",")
-testdata = csv.reader(open("../data/humantrafficking_TEST_data.csv","r"),delimiter=",")
+data = csv.reader(open("humantrafficking_data.csv","r"),delimiter=",")
+testdata = csv.reader(open("humantrafficking_TEST_data.csv","r"),delimiter=",")
 Xnames = data.next()[2:]          # feature names
 X = []                            # training data
 Y = []                            # targets of training data
@@ -48,8 +48,24 @@ print "Decision tree training accuracy"
 training_accuracy =  sum(Y == clf.predict(X))/float(len(Y))         # predict the class of training data
 print training_accuracy
 
-dot_data = StringIO() 
-tree.export_graphviz(clf, out_file=dot_data, feature_names = Xnames) 
-graph = pydot.graph_from_dot_data(dot_data.getvalue()) 
-#graph.write_pdf(image_name + ".pdf") 
-graph.write_png(image_name + "_" + str(maxdepth) + "_" + ".png") 
+### Day 4 Testing and Training sets
+testdata.next() #skipping header
+for line in testdata:
+    if select == 'y':
+        TX.append(np.array([line[f] for f in feats],dtype='i8'))
+    else:
+        TX.append(np.array(line[2:],dtype='i8'))
+    TY.append(np.array(line[0],dtype='i8'))
+
+print "\nDecision tree test accuracy"
+test_accuracy =  sum(TY == clf.predict(TX))/float(len(TY))         # predict the class of test data
+print test_accuracy
+
+#### Creating their own person of interest
+Z = []
+print "Your models features: ", Xnames
+for name in Xnames:
+    Z.append(int(raw_input("%s: " % name)))
+print "___________________"
+print "Predicted as class:", clf.predict([Z])[0]         # predict the class of POI
+
